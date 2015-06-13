@@ -28,8 +28,6 @@ colnames(test) <- as.vector(features$V2)
 colnames(test) #checks the recently added variable names
 
 
-
-
 ### Add subjectID, activityID, setID to train and testing datasets
 train$subjectID <- train_subjects$V1 #adds subject ID to rows
 
